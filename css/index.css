@@ -1,0 +1,307 @@
+body,html{
+    margin: auto auto;
+    padding: 0px 0px;
+    top: 0px;
+    left: 0px;
+    border: 0;
+    background-color: #000000;
+    font-family: Arial,Helvetica,sans-serif;
+    color: #000;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    color: #fff;
+}
+/*------------inputs*/
+.button{
+        margin-top:5px;
+        height:34px;
+        padding:5px;
+        border:medium none;
+        font: 16px/1.4em "Helvetica","Arial","sans-serif";
+        background-color: #A5A5A5;
+        color:#ffffff;
+        cursor: pointer;
+}
+/*---------------------div*/
+header#frame{
+    position:relative;
+    margin: auto auto;
+    padding: 95px 95px;
+    width: 981px;
+    min-height:695px;
+    height:auto !important;  
+    height:695px;
+}
+    section#leftside{
+        float: left;
+        padding: 0px;
+        width: 320px;
+        height:665px;
+        background-color: #FFFFFF;
+    }
+        div#namecont{
+            position: absolute;
+            height:200px;
+            width: 320px;
+            text-align:center;
+            margin: auto;
+            top:0px;
+            bottom:0px;
+        }
+            p#name{
+                font: 27px/1.4em "Helvetica","Arial","sans-serif";
+            }
+            p#label{
+                font: 17px/1.4em "Helvetica","Arial","sans-serif";
+                letter-spacing: 0.1em;
+            }
+            p#albumtext{
+                font: 22px/1.4em "Helvetica","Arial","sans-serif";
+            }
+    section#content{
+        position:relative;
+        float: left;
+        width: 661px;
+        height:auto;
+        min-height:665px;
+        height:auto !important;  
+        height:665px;  
+        background-color: #FFFFFF;
+    }
+    nav#menubar{
+        height: 30px;
+        width: 730px;
+    }
+/*-----------------menu li */
+ul#menucontainer {
+	overflow: hidden;
+	display: inline-block;
+    text-align: center;
+    margin:0px;
+    padding: 0px;
+}
+
+.ie6 ul#menucontainer {
+   display:inline;
+}
+
+* html ul#menucontainer { margin: 0 auto; width: 530px; } /* IE fix */
+
+ul#menucontainer li {
+    list-style-type: none;
+	white-space: normal;
+	text-align: center;
+    line-height: 30px;
+    padding:0px 12px;
+    height: 30px;
+	float: left;
+    background-color:#FF0000;
+    color: #000;
+    margin-right:4px;
+    border-bottom-right-radius: 0.7em;
+    border-bottom-left-radius: 0.7em;
+    cursor: pointer;
+}
+ul#menucontainer li.current{
+    color: #fff;
+    background-color:#A90000;
+}
+/*----------------home*/
+div#home_pic_cont{
+    width: 651px;
+    height:605px;
+}
+img#homepic{
+    width:661px;
+    height:665px;
+    border:0;
+}
+div#load{
+    display:none;
+}
+div#home_bar{
+    display:none;
+    width:651px;
+    height:22px;
+    background-color: #FFFFFF;
+    opacity: 0.7;
+    position:relative;
+    bottom:34px;
+    text-align:right;
+    padding-top: 8px;
+    font-size: 12px;
+    padding-right:10px;
+}
+span#home_control{
+    line-height: 8px;
+    padding-right:10px;
+}
+img.home_button{
+    cursor:pointer;
+}
+/*----------------album*/
+div.photos{
+    bottom:65px;
+    width:661px;
+    height:600px;
+}
+    div.photo_container{
+        float: left;
+        width: 137px;
+        height: 116px;
+        margin: 10px;
+        background: #D8D8D8 url('img/load.gif') no-repeat center;
+        cursor: pointer;
+    }
+    img.small{
+        width: 137px;
+        height: 116px;
+        border: 0px;
+    }
+    div.photo_first{
+        position:absolute;
+    }
+    div.thumb_cover{
+        display: none;
+        position:relative;
+        z-index:4;
+        top:0px;
+        left:0px;
+        padding: 10px;
+        width: 117px;
+        height: 96px;
+        background-image: url('img/opa.png');
+        cursor: pointer;
+    }
+        span.photo_title{
+            color: #fff;
+            font: 17px/1.4em "Helvetica","Arial","sans-serif";
+        }
+        span.photo_desc{
+            color: #D8D8D8;
+            font: 13px/1.3em "Helvetica","Arial","sans-serif";
+        }
+/*-----------------menu li */
+div#albumbar{
+    width:641px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+ul#albummenu {
+	overflow: hidden;
+	display: inline-block;
+    text-align: center;
+    margin:0px;
+    padding: 0px;
+}
+
+.ie6 ul#albummenu {
+   display:inline;
+}
+
+* html ul#albummenu { margin: 0 auto; width: 530px; } /* IE fix */
+
+ul#albummenu li {
+    list-style-type: none;
+	white-space: normal;
+	text-align: center;
+    line-height: 30px;
+    padding:0px 6px;
+    height: 30px;
+	float: left;
+    background-color:#000;
+    color: #fff;
+    margin-right:5px;
+    margin-bottom:5px;
+    cursor: pointer;
+}
+ul#albummenu li.current{
+    color: #fff ;
+    background-color:#000;
+}
+/*----------------about*/
+div#aboutpic{
+    margin-top: 20px;
+    max-height: 625px;
+    max-width: 320px;
+    height:auto !important;
+    height:625px;
+    width:auto !important;
+    width:320px;
+    float: left;
+}
+div#abouttext{
+    margin-top: 35px;
+    margin-left: 20px;
+    width: 300px;
+    min-height: 405px;
+    height: auto !important;
+    height: 405px;
+    float: left;
+}
+/*----------------contact*/
+p#back{
+    position: absolute;
+    top: 100px;
+    color: #A5A5A5;
+    text-align: center;
+}
+form#contform{
+    position:absolute;
+    top:191px;
+}
+    input.input{
+        margin-top:5px;
+        width:651px;
+        height:19px;
+        padding:5px;
+        border:0px;
+        font: 16px/1.4em "Helvetica","Arial","sans-serif";
+        background-color: #D8D8D8;
+    }
+    input#esend{
+        margin-top:5px;
+        float:right;
+        width:53px;
+        height:34px;
+        padding:5px;
+        border:medium none;
+        font: 16px/1.4em "Helvetica","Arial","sans-serif";
+        background-color: #A5A5A5;
+        color:#ffffff;
+        cursor: pointer;
+    }
+    textarea#etext{
+        margin-top:5px;
+        width: 651px;
+        height: 100px;
+        padding:5px;
+        border:0px;
+        font: 16px/1.4em "Helvetica","Arial","sans-serif";
+        background-color: #D8D8D8;
+        resize:none;
+    
+    }
+div#contact_box{
+    position: absolute;
+    right: 0px;
+    top:523px;
+    width: 410px;
+    height: 96px;
+    background-color: #000000;
+    color: #ffffff;
+    padding-left:30px;
+    padding-top:6px;
+}
+    p#mail{
+        font: 27px/1.4em "Helvetica","Arial","sans-serif";
+        padding: 0px;
+        margin: 0px;
+    }
+#hf{
+    display: none;
+}

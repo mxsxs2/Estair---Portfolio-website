@@ -1,0 +1,1 @@
+<div class="fb-like-box" data-href="https://www.facebook.com/eszter.karpati.1" data-width="661" data-height="665" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="true" data-show-border="true"></div>
